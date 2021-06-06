@@ -1,0 +1,6 @@
+XMLHttpRequest()
+req.addEventListener
+'readystatechange'
+req.readyState
+req.open()
+req.send()
