@@ -1,0 +1,17 @@
+// Connect to Bored API by using the following
+
+// XMLHttpRequest()
+// req.addEventListener
+// 'readystatechange'
+// req.readyState
+// req.open()
+// req.send()
+
+const xhr = new XMLHttpRequest()
+xhr.addEventListener('readystatechange', () => {
+  if(xhr.readyState === 4) {
+    console.log(xhr, xhr.responseText)
+  }
+})
+xhr.open('GET', 'https://www.boredapi.com/api/activity')
+xhr.send()
