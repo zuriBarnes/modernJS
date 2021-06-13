@@ -15,7 +15,7 @@ const areAboveAge = peopleList.every((person => {
         return true
     }
     return false
-})
+}))
 
 
 
