@@ -35,8 +35,6 @@ const peopleList = [
         }
         return false
     })
-shotgunIndex = 0
+
     
-    
-    
-0
+
