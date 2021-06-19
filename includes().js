@@ -6,3 +6,5 @@ const people = ['John', 'Mary', 'Caitlyn']
 people.includes('George') // false
 people.includes('John') // true
 
+const monsters = ['Freddy', 'Jason', 'Michael Myers', 'Candyman']
+monsters.includes('Jason') /// true
