@@ -9,7 +9,7 @@ function App() {
   
     <div className="container">
       <h1>{ myName }</h1>
-      <p>Liked {Math.floor(Math.random() * 1000) } times</p>
+      <p>Liked {Math.floor(Math.random() * 300) } times</p>
       {/* <Header title="Task Tracker" />
       <TestComp />
       <Button />
