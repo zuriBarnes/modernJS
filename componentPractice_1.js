@@ -14,8 +14,8 @@ function App() {
       <h1>{ title }</h1>
       <p>{ 10 }</p>
       <p>{ 'This is a test string' }</p>
-      <p> {[532, true, 2854, 'test']}</p>
-      <p>Liked {Math.floor(Math.random() * 300) } times</p>
+      <p> { [532, true, 2854, 'test'] }</p>
+      <p>Liked { Math.floor(Math.random() * 300) } times</p>
       <a href={ link } target={ gTarget }>Google Developer Website</a>
       {/* <Header title="Task Tracker" />
       <TestComp />
