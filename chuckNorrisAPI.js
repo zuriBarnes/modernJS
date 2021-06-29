@@ -11,6 +11,8 @@ request.open('GET', 'https://api.chucknorris.io/jokes/random/') // main function
 request.send() // send request
   
 }
+
+// Async javascript test //
 console.log(1)
 console.log(2)
 
