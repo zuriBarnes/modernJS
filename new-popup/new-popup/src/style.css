@@ -1,0 +1,55 @@
+.award-popup {
+  position: relative;
+  left: 100px;
+  width: 200px;
+  text-align: center;
+  padding: 5px 1em 0 1em;
+  background: #333;
+  z-index: 998;
+  display: none;
+
+}
+.toggle-box {
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  z-index: 999;
+  cursor: pointer;
+}
+.toggle-box div {
+  margin-top: 0px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(
+45deg
+);
+  font-weight: 800;
+  font-size: 20px;
+}
+.content-box {
+  width: 200px;
+  height: 300px;
+  background: #333;
+}
+.img-box {
+  margin-top: 3em;
+}
+.award-popup button {
+  margin-top: 2em;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  background: #babaa4;
+  color: #fff;
+  cursor: pointer;
+}
