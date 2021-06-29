@@ -7,11 +7,11 @@
 // req.open()
 // req.send()
 
-const xhr = new XMLHttpRequest()
-xhr.addEventListener('readystatechange', () => {
-  if(xhr.readyState === 4) {
+const xhr = new XMLHttpRequest() //  create variable
+xhr.addEventListener('readystatechange', () => { // add listener for state change
+  if(xhr.readyState === 4) { // if state change is completed..then
     console.log(xhr, xhr.responseText)
   }
 })
-xhr.open('GET', 'https://www.boredapi.com/api/activity')
-xhr.send()
+xhr.open('GET', 'https://www.boredapi.com/api/activity') // fetch the data
+xhr.send() // send command
