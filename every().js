@@ -1,6 +1,7 @@
 /*
 every() 
 Returns true if all the elements in the array pass the "test" implemented by the function false oterwise
+So obvious use case could be testing
 */
 
 const peopleList = [
